@@ -1,0 +1,7 @@
+﻿{
+  "scripts": {
+    "deploy:contract": "powershell -ExecutionPolicy Bypass -File scripts/deploy-contract.ps1",
+    "dev": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend"
+  }
+}
